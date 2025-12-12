@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    font-style: arial sans-serif;
+    border:border-box;
+}
+.navbar{
+    background-color:#0f1111 ;
+    color: white;
+width: 100%;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.logo{
+    width: 100px;
+    height:50px;
+background-image: url(/image/Amazon_logoo.jpg);
+background-size: cover;
+}
+.border:hover{
+border: 1.2px solid white;
+}
+/**2nd **/
+.bar{
+    display: flex;
+    width: 700px;
+}
+.ff{
+  color: #cccc;
+  font-weight: 10px;
+  margin-left: 20px;
+}
+.sec{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight:14px;
+    width: 100%;
+}
+/** 3rd **/
+.serchbar{
+display: flex;
+width: 670px;
+height: 40px;
+}
+.All{
+    background-color: #E6E6E6;
+    width: 50px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+      border: none;
+}
+.serch{
+    width: 100%;
+    font-size: 17px;
+    border: none;
+}
+.serchbar:hover{
+    border: 2px solid rgb(255, 230, 0);
+}
+.icon{
+width: 50px;;
+display: flex;
+font-size: 1.3rem;
+align-items: center;
+background-color: rgb(255, 179, 0);
+  border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+border: none;
+justify-content: center;
+}
+/** 4th **/
+.item4{
+    width: 120px;
+}
+.it1{
+font-size: 12px;
+}
+.it2{
+font-size: 14px;
+font-weight: 700;
+}
+/** item 5 **/
+.cart{
+    width: 85px;
+display: flex;
+align-items: center;
+}
+.cart i{
+font-size: 2rem;
+}
+/** 2nd navbar **/
+.nav2{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    background-color: #0f1111;
+    color:#ffffff;
+     padding-top: 15px;
+     background-color: #232F3E;
+}
+.icon2{
+display: flex;
+padding-right: 20px;
+
+}
+.anchar{
+    display: flex;
+}
+.anchar p{
+    padding-right: 20px;
+}
+/** HERO  **/
+.hero{
+height: 250px;
+width: 100%;
+}
+.herologo{
+    height: 600px;
+width: 100%;
+    background-image: url("/image/hero.jpg.jpg");
+    background-size: cover;
+}
+/** market section **/
+.marketing{
+display: flex;
+flex-wrap: wrap;
+height: 100px;
+  justify-content: space-evenly;
+
+}
+.box{
+    margin-top: 10px;
+    height: 370px;
+    width: 23%;
+    justify-content: space-evenly;
+    align-items: center;
+background-color: #E6E6E6;
+}
+.box-img{
+    background-size: cover;
+    height: 250px;
+    padding: 20px 0px 15px;
+    margin-top: 0.85rem;
+    margin-bottom: 0.85rem;
+}
+.content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.content p{
+    color: #2162A1;
+}
+
